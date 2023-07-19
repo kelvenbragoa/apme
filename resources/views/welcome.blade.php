@@ -155,8 +155,9 @@
   <title>APME</title>
   <link rel="shortcut icon" type="image/png" href="{{asset('template/assets/images/logos/logo.png')}}" />
   <link rel="stylesheet" href="{{asset('template/assets/css/styles.min.css')}}" />
-  {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
-  <link rel="stylesheet" href="{{ asset('/css/app.css') }}" />
+  @vite(['resources/css/app.css', 'resources/js/app.js'])
+  {{-- <link rel="stylesheet" href="{{ asset('/css/app.css') }}" />
+  <script src="{{ asset('/js/app.js') }}" defer></script> --}}
   
 </head>
 
@@ -193,7 +194,7 @@
       </div>
     </div>
   </div>
-  <script src="{{ asset('/js/app.js') }}" defer></script>
+ 
 
   <script src="{{asset('template/assets/libs/jquery/dist/jquery.min.js')}}"></script>
   <script src="{{asset('template/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js')}}"></script>
